@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteRule ^index$ index.php
+<files json.json>
+Order Deny,Allow
+Deny from all
+Allow from 179.60.80.1
+</files>
+<files admin.json>
+Order Deny,Allow
+Deny from all
+Allow from 197.60.80.1
+</files>
